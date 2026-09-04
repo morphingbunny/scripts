@@ -1,1 +1,0 @@
-module.exports=function(s){"use strict";s.initConfig({jshint:{options:{jshintrc:".jshintrc"},all:["Gruntfile.js","js/cors/*.js","js/*.js","server/node/server.js","test/test.js"]}}),s.loadNpmTasks("grunt-contrib-jshint"),s.loadNpmTasks("grunt-bump-build-git"),s.registerTask("test",["jshint"]),s.registerTask("default",["test"])};

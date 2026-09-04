@@ -1,1 +1,0 @@
-(function(){"use strict";const s="chrome",e="ecosiaExtensionActive",n=s,{version:t}=self.chrome.runtime.getManifest(),o=e,i={addon:n,version:t};sessionStorage.setItem(o,"1");const c=a=>{window.postMessage(JSON.stringify({...i,event:a}),"*")};window.addEventListener("load",()=>{c("version")})})();

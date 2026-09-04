@@ -1,1 +1,0 @@
-$("a").each((function(n,t){var e=$(t).attr("href");console.info("Anchor tag found, with href: "+e)})),chrome.runtime.onMessage.addListener((function(n,t,e){n.hasOwnProperty("content_script_check")&&e({running_content_script:!0})}));
