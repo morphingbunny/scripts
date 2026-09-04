@@ -8,21 +8,21 @@ hl.config({
         gaps_out = 8,
         border_size = 2,
         col = {
-            active_border = { colors = { "rgba(82dcccff)", "rgba(007d6fff)" }, angle = 45 },
-            inactive_border = "rgba(798bb2ff)",
+            active_border = { colors = { "rgba(30d158ff)", "rgba(0a6b3dff)" }, angle = 10 },
+            inactive_border = "rgba(3a5c48ff)",
         },
     },
     decoration = {
         rounding = 10,
-        active_opacity = 1.00,
-        inactive_opacity = 1.00,
+        active_opacity = 0.95,
+        inactive_opacity = 0.85,
         blur = {
-            enabled = false,
+            enabled = true,
             size = 5,
             passes = 4,
         },
-        shadow = { enabled = false },
+        shadow = { enabled = true },
     },
 })
 
-hl.animation({ leaf = "global", enabled = false, speed = 1, bezier = "quick" })
+hl.animation({ leaf = "global", enabled = true, speed = 3, bezier = "quick" })
