@@ -1,0 +1,27 @@
+{
+   "background": {
+      "service_worker": "backgroundScript.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "contentScript.js" ],
+      "matches": [ "http://*.reddit.com/*", "https://*.reddit.com/*" ]
+   } ],
+   "description": "Highlight unread comments since your last visit to a Reddit comment section.",
+   "homepage_url": "https://github.com/aesy/reddit-comment-highlights",
+   "host_permissions": [ "http://*.reddit.com/*", "https://*.reddit.com/*" ],
+   "icons": {
+      "48": "icon48.png",
+      "96": "icon96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArt7w/QJfT1wWoP2H/UXsaHDnX3ZVZgz0n6GY/Ad6jw7iHmx+dj12JEmPK/JQd1COmniDJPxsEX8rIovFiJPMSDRRinO0m1It1+aMVHQy3kHL8bIghL6ec+gVvlvnLkAP+f8nwvLxfX6zI86Yx6VOGPxkHzjXQIHWfChuyk2rePP6m2dATrHvMvjtw5cKmz51kr70E3V/0vANUNLA+k7FidatjFFlkyqLvqDlMMzweJy3uoqSB3GZAgNUb1+XZEuPXNyW0WHLehEpmfFlaHYM5jZ0n2On4Lp6YUdhom8axhJ0joIO9CXh3EdQX1+7TGUtN3HtAGBfqGukphOQBpqTfQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "Reddit (Au) Comment Highlights",
+   "options_page": "options.html",
+   "permissions": [ "storage" ],
+   "short_name": "Highlight new Reddit comments",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.0"
+}

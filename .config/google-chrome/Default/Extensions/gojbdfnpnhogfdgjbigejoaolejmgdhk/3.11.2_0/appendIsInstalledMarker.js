@@ -1,0 +1,1 @@
+(()=>{var e="oneNoteWebClipperIsInstalledOnThisBrowser",n=document.createElement("div");n&&(n.className=e,n.style.display="none",0===document.documentElement.getElementsByClassName(e).length)&&document.documentElement.appendChild(n)})();

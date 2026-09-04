@@ -1,0 +1,1 @@
+function setKMSecure(e){if(e>10)return!1;if("undefined"!=typeof KM)KM.hasOwnProperty("td")&&KM.hasOwnProperty("tds")&&(KM.td=KM.tds);else{console.error("try again in 100ms -- "+e),setTimeout((function(){setKMSecure(e+1)}),100)}}setKMSecure(0);

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>counter-dark</title>
+    <g id="counter-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#1875F3" x="18" y="18" width="28" height="28" rx="5.15384808"></rect>
+        <g id="add_new_webfeed" transform="translate(23.5944, 23.5944)" fill="#FFFFFF">
+            <path d="M8.38315564,3.55271368e-15 C13.0130447,3.55271368e-15 16.7663113,3.75326662 16.7663113,8.38315564 C16.7663113,13.0130447 13.0130447,16.7663113 8.38315564,16.7663113 C3.75326662,16.7663113 0,13.0130447 0,8.38315564 C0,3.75326662 3.75326662,3.55271368e-15 8.38315564,3.55271368e-15 Z M10.8981023,3.35326226 C9.50913563,3.35326226 8.38315564,4.47924224 8.38315564,5.86820895 C8.38315564,7.25717565 9.50913563,8.38315564 10.8981023,8.38315564 C12.287069,8.38315564 13.413049,7.25717565 13.413049,5.86820895 C13.413049,4.47924224 12.287069,3.35326226 10.8981023,3.35326226 Z" id="Combined-Shape"></path>
+        </g>
+        <rect id="Rectangle" stroke="#16191C" stroke-width="2.31471454" fill="#353637" x="22.8426427" y="35.8426427" width="30.3147145" height="18.5390958" rx="9.26954792"></rect>
+        <text id="+1k" font-family="PublicSansRoman-Medium, Public Sans" font-size="9.25885816" font-weight="400" line-spacing="16.2030018" fill="#FFFFFF">
+            <tspan x="29.6054518" y="46.0120933">+1k</tspan>
+        </text>
+    </g>
+</svg>

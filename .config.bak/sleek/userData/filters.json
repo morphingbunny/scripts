@@ -1,0 +1,19 @@
+{
+	"attributes": {
+		"rec": [
+			{
+				"value": [
+					"1w"
+				],
+				"exclude": false,
+				"groupedName": null
+			}
+		]
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "2.0.27"
+		}
+	},
+	"search": []
+}

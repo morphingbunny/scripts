@@ -1,0 +1,95 @@
+[2026-09-03 21:36:33.015] [info]  ======= NEW SESSION =======
+[2026-09-03 21:36:33.030] [info]  App version: 9.30.0
+[2026-09-03 21:36:33.037] [info]  Build date: Tue Aug 04 2026 18:38:23 GMT+0200 (Central European Summer Time)
+[2026-09-03 21:36:33.038] [info]  Time: Thu Sep 03 2026 21:36:33 GMT+0200 (Central European Summer Time)
+[2026-09-03 21:36:33.107] [info]  Timezone: Europe/Copenhagen
+[2026-09-03 21:36:33.108] [info]  ===========================
+[2026-09-03 21:36:34.318] [info]  Checking for update
+[2026-09-03 21:36:34.617] [info]  No stored API token
+[2026-09-03 21:36:34.668] [info]  Opening new window
+[2026-09-03 21:36:34.685] [info]  Successfully registered custom protocols
+[2026-09-03 21:36:35.045] [info]  Generated new staging user ID: 6ff2f9e7-6da2-5e3f-a152-437f0ecf5e09
+[2026-09-03 21:36:35.355] [info]  Update for version 9.30.0 is not available (latest version: 9.30.0, downgrade is allowed).
+[2026-09-03 21:36:41.908] [info]  Closing a window
+[2026-09-03 21:36:41.923] [info]  App is quitting
+[2026-09-04 08:42:37.066] [info]  ======= NEW SESSION =======
+[2026-09-04 08:42:37.081] [info]  App version: 9.30.0
+[2026-09-04 08:42:37.084] [info]  Build date: Tue Aug 04 2026 18:38:23 GMT+0200 (Central European Summer Time)
+[2026-09-04 08:42:37.086] [info]  Time: Fri Sep 04 2026 08:42:37 GMT+0200 (Central European Summer Time)
+[2026-09-04 08:42:37.149] [info]  Timezone: Europe/Copenhagen
+[2026-09-04 08:42:37.149] [info]  ===========================
+[2026-09-04 08:42:38.293] [info]  Checking for update
+[2026-09-04 08:42:38.483] [info]  No stored API token
+[2026-09-04 08:42:38.530] [info]  Opening new window
+[2026-09-04 08:42:38.545] [info]  Successfully registered custom protocols
+[2026-09-04 08:42:39.485] [info]  Update for version 9.30.0 is not available (latest version: 9.30.0, downgrade is allowed).
+[2026-09-04 08:42:42.862] [info]  Opening login URL in the browser
+[2026-09-04 08:43:08.533] [info]  ======= NEW SESSION =======
+[2026-09-04 08:43:08.546] [info]  App version: 9.30.0
+[2026-09-04 08:43:08.550] [info]  Build date: Tue Aug 04 2026 18:38:23 GMT+0200 (Central European Summer Time)
+[2026-09-04 08:43:08.551] [info]  Time: Fri Sep 04 2026 08:43:08 GMT+0200 (Central European Summer Time)
+[2026-09-04 08:43:08.619] [info]  Timezone: Europe/Copenhagen
+[2026-09-04 08:43:08.619] [info]  ===========================
+[2026-09-04 08:43:09.382] [info]  Received second-instance app event
+[2026-09-04 08:43:09.383] [info]  Received deeplink: com.todoist://oauth2redirect/todoist?code=*****&state=*****&prompt=login
+[2026-09-04 08:43:09.384] [info]  Handling auth deeplink: com.todoist://oauth2redirect/todoist?code=*****&state=*****&prompt=login
+[2026-09-04 08:43:09.509] [info]  Successfully exchanged code for token, opening web app now
+[2026-09-04 08:43:14.127] [info]  Setting web app initialized
+[2026-09-04 08:43:14.128] [info]  setting theme: 0
+[2026-09-04 08:43:14.679] [info]  Received login IPC message
+[2026-09-04 08:43:14.681] [info]  Safe Storage Encryption is not available
+[2026-09-04 08:43:14.776] [info]  setting experimentalist value to false
+[2026-09-04 08:45:09.518] [info]  setting theme: 11
+[2026-09-04 08:45:20.345] [info]  setting theme: 11
+[2026-09-04 08:45:20.350] [info]  setting theme: 0
+[2026-09-04 08:45:20.355] [info]  setting theme: 11
+[2026-09-04 08:45:49.274] [info]  Received IPC message for a notification of type: undefined
+[2026-09-04 08:45:49.274] [info]  Showing a notification of the type: undefined
+[2026-09-04 08:57:17.861] [info]  ======= NEW SESSION =======
+[2026-09-04 08:57:17.876] [info]  App version: 9.30.0
+[2026-09-04 08:57:17.885] [info]  Build date: Tue Aug 04 2026 18:38:23 GMT+0200 (Central European Summer Time)
+[2026-09-04 08:57:17.886] [info]  Time: Fri Sep 04 2026 08:57:17 GMT+0200 (Central European Summer Time)
+[2026-09-04 08:57:17.970] [info]  Timezone: Europe/Copenhagen
+[2026-09-04 08:57:17.971] [info]  ===========================
+[2026-09-04 08:57:19.279] [info]  Checking for update
+[2026-09-04 08:57:19.472] [info]  Found saved session, opening the app directly
+[2026-09-04 08:57:19.538] [info]  Opening new window
+[2026-09-04 08:57:19.554] [info]  Successfully registered custom protocols
+[2026-09-04 08:57:20.779] [info]  Update for version 9.30.0 is not available (latest version: 9.30.0, downgrade is allowed).
+[2026-09-04 08:57:22.827] [info]  Setting web app initialized
+[2026-09-04 08:57:22.827] [info]  setting theme: 11
+[2026-09-04 08:57:23.188] [info]  Received login IPC message
+[2026-09-04 08:57:23.189] [info]  Safe Storage Encryption is not available
+[2026-09-04 08:57:23.257] [info]  setting experimentalist value to false
+[2026-09-04 11:21:38.580] [info]  Opening new window
+[2026-09-04 11:21:41.641] [info]  Setting web app initialized
+[2026-09-04 11:21:41.642] [info]  setting theme: 11
+[2026-09-04 11:21:41.979] [info]  Received login IPC message
+[2026-09-04 11:21:41.979] [info]  Safe Storage Encryption is not available
+[2026-09-04 11:21:42.033] [info]  setting experimentalist value to false
+[2026-09-04 11:21:57.861] [info]  Opening new window
+[2026-09-04 11:22:00.521] [info]  Setting web app initialized
+[2026-09-04 11:22:00.522] [info]  setting theme: 11
+[2026-09-04 11:22:00.817] [info]  Received login IPC message
+[2026-09-04 11:22:00.818] [info]  Safe Storage Encryption is not available
+[2026-09-04 11:22:00.892] [info]  setting experimentalist value to false
+[2026-09-04 11:22:05.109] [info]  Closing a window
+[2026-09-04 11:22:06.096] [info]  Closing a window
+[2026-09-04 11:22:07.163] [info]  Closing a window
+[2026-09-04 11:22:07.225] [info]  App is quitting
+[2026-09-04 11:22:14.789] [info]  ======= NEW SESSION =======
+[2026-09-04 11:22:14.803] [info]  App version: 9.30.0
+[2026-09-04 11:22:14.807] [info]  Build date: Tue Aug 04 2026 18:38:23 GMT+0200 (Central European Summer Time)
+[2026-09-04 11:22:14.809] [info]  Time: Fri Sep 04 2026 11:22:14 GMT+0200 (Central European Summer Time)
+[2026-09-04 11:22:14.880] [info]  Timezone: Europe/Copenhagen
+[2026-09-04 11:22:14.880] [info]  ===========================
+[2026-09-04 11:22:16.103] [info]  Checking for update
+[2026-09-04 11:22:16.306] [info]  Found saved session, opening the app directly
+[2026-09-04 11:22:16.370] [info]  Opening new window
+[2026-09-04 11:22:16.401] [info]  Successfully registered custom protocols
+[2026-09-04 11:22:17.756] [info]  Update for version 9.30.0 is not available (latest version: 9.30.0, downgrade is allowed).
+[2026-09-04 11:22:19.652] [info]  Setting web app initialized
+[2026-09-04 11:22:19.655] [info]  setting theme: 11
+[2026-09-04 11:22:20.096] [info]  Received login IPC message
+[2026-09-04 11:22:20.098] [info]  Safe Storage Encryption is not available
+[2026-09-04 11:22:20.165] [info]  setting experimentalist value to false

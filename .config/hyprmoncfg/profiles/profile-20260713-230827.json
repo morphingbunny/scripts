@@ -1,0 +1,41 @@
+{
+  "name": "profile-20260713-230827",
+  "created_at": "2026-07-13T21:08:34.410492049Z",
+  "updated_at": "2026-07-13T21:08:34.411137452Z",
+  "outputs": [
+    {
+      "key": "lg display|0x04a7",
+      "match_key": "lg display|0x04a7",
+      "name": "eDP-1",
+      "description": "LG Display 0x04A7",
+      "make": "LG Display",
+      "model": "0x04A7",
+      "enabled": true,
+      "mode": "1920x1080@60.02Hz",
+      "width": 1920,
+      "height": 1080,
+      "refresh": 60.02,
+      "x": 0,
+      "y": 0,
+      "scale": 1.5,
+      "transform": 0,
+      "bitdepth": 8,
+      "cm": "srgb",
+      "sdr_brightness": 1,
+      "sdr_saturation": 1,
+      "sdr_min_luminance": 0.2,
+      "sdr_max_luminance": 80,
+      "min_luminance": 0
+    }
+  ],
+  "workspaces": {
+    "enabled": true,
+    "strategy": "sequential",
+    "max_workspaces": 9,
+    "group_size": 3,
+    "monitor_order": [
+      "lg display|0x04a7"
+    ]
+  },
+  "exec": ""
+}

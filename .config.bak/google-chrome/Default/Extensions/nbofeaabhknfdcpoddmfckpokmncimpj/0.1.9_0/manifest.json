@@ -1,0 +1,44 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_title": "Change Timezone (Time Shift)"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "data/content_script/inject.js" ],
+      "matches": [ "https://webbrowsertools.com/timezone*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Easily change your timezone to a desired value and protect your privacy.",
+   "homepage_url": "https://mybrowseraddon.com/change-timezone.html",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA04AKDAa4tCwSmWYwbxMm+wa/S3sNBgU4Fnxz2gKZ+tkbVMZHNyoi46WM3TYFr0DEidBZP7UWjveJyp57/IvGmNiiZfO5ZqPIIja6GVE8/vPDBalM8Sda7qUxZXWyMG3HQaXlihjulaPs5rmzrIRWEzVpMJ7ItWDAZ8QTIFLNg8ybV3tWcWcWHO3W/eWmSekg8+VoqKdhj1d3aKzRadB1ns9lrRLk37cLag6O+nrKLPYbBGDMqW1Z8WSR4ZNKHZB4L9RkdonLjT6sZ8b2fLA1duKcS89iyDHHWFrrncEgmilBxgp1tWx421icKDLzF6KBF+DGhnbass9abVfuyljv5wIDAQAB",
+   "manifest_version": 3,
+   "name": "Change Timezone (Time Shift)",
+   "offline_enabled": true,
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "data/options/options.html"
+   },
+   "permissions": [ "storage", "scripting", "contextMenus", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.9"
+}

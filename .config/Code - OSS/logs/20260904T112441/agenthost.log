@@ -1,0 +1,23 @@
+2026-09-04 11:24:44.783 [info] Agent Host process started successfully
+2026-09-04 11:24:44.783 [info] AgentService initialized
+2026-09-04 11:24:44.783 [info] Registering agent provider: copilotcli
+2026-09-04 11:24:44.783 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-04 11:24:44.828 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-4b21ccd00c53/8_gmmTEoLwpQ7cpl7byfVw.sock
+2026-09-04 11:24:44.866 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-04 11:24:44.869 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-04 11:24:44.909 [info] [Copilot] Listing chats to migrate...
+2026-09-04 11:24:44.910 [info] [Copilot] Starting CopilotClient...
+2026-09-04 11:24:44.911 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=code-oss
+2026-09-04 11:24:44.919 [info] [Copilot] Resolved CLI path: /usr/lib/code/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-09-04 11:24:44.984 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-04 11:24:44.993 [info] [ProtocolServer] Initialize: clientId=09ae2db8-2cc3-4300-bb08-20dde9cd78ba, protocolVersions=[1.0.0, 0.9.0, 0.8.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-04 11:24:45.013 [info] [AgentService] showExternalSessions changed 'none' -> 'recent'; queueing session list reconciliation
+2026-09-04 11:24:47.369 [info] [Copilot] CopilotClient started successfully
+2026-09-04 11:24:47.378 [info] [Copilot] Listed 0 SDK session(s) for chats to migrate
+2026-09-04 11:24:47.378 [info] [Copilot] Found 0 legacy sessions
+2026-09-04 11:24:47.396 [info] [Copilot] Listing discoverable chats...
+2026-09-04 11:24:47.398 [info] [AgentService] listSessions computed 0 of 0 session(s) for mode 'last30Days' in 2383ms (0 state-manager fallback)
+2026-09-04 11:24:47.398 [info] [AgentService] External session reconciliation done in 2383ms (mode: 'recent', previous: 'none'): 0 published, 0 retracted, 0 visible
+2026-09-04 11:24:47.400 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-04 11:24:47.400 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-09-04 11:24:47.401 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)

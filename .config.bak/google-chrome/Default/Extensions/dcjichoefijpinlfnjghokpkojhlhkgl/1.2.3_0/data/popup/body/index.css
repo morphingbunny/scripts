@@ -1,0 +1,68 @@
+body {
+  background-color: #fff;
+  color: #222;
+  font: 12.8px arial, sans-serif;
+}
+body,
+td {
+  font-size: 13px;
+}
+a {
+  color: #15c;
+  cursor: pointer;
+}
+a:visited {
+  color: #61c;
+}
+img {
+  border: 0;
+}
+pre {
+  white-space: pre;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 800px;
+  overflow: auto;
+}
+
+/* custom CSS */
+.root {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+body {
+  margin: 0;
+}
+body.summary {
+  white-space: pre-wrap;
+}
+table {
+  color: inherit;
+}
+
+html {
+  color-scheme: light;
+  scrollbar-color: #626262 #fff;
+}
+html.dark {
+  background-color: #fff;
+  filter: hue-rotate(180deg) invert(100%);
+  color-scheme: dark;
+  scrollbar-color: #9d9d9d #000;
+}
+html.dark em,
+html.dark img,
+html.dark svg,
+html.dark image,
+html.dark video,
+html.dark audio,
+html.dark embed,
+html.dark iframe,
+html.dark object,
+html.dark button,
+html.dark canvas {
+  filter: hue-rotate(180deg) invert(100%);
+}

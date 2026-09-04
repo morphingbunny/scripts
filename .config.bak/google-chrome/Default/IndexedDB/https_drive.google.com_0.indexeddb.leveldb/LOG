@@ -1,0 +1,21 @@
+2026/09/02-09:25:09.454 9ff Reusing MANIFEST /home/thomas/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/02-09:25:09.455 9ff Recovering log #41
+2026/09/02-09:25:09.541 9ff Reusing old log /home/thomas/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000041.log 
+2026/09/02-09:25:11.800 a04 Compacting 1@1 + 5@2 files
+2026/09/02-09:25:11.817 a04 Level-0 table #48: started
+2026/09/02-09:25:11.892 a04 Level-0 table #48: 1824983 bytes OK
+2026/09/02-09:25:11.918 a04 Delete type=0 #41
+2026/09/02-09:25:11.986 a04 Generated table #46@1: 13759 keys, 2141296 bytes
+2026/09/02-09:25:12.049 a04 Generated table #49@1: 2146 keys, 2117072 bytes
+2026/09/02-09:25:12.108 a04 Generated table #50@1: 1712 keys, 2120754 bytes
+2026/09/02-09:25:12.199 a04 Generated table #51@1: 1822 keys, 2125299 bytes
+2026/09/02-09:25:12.275 a04 Generated table #52@1: 1790 keys, 2115006 bytes
+2026/09/02-09:25:12.303 a04 Generated table #53@1: 9304 keys, 410627 bytes
+2026/09/02-09:25:12.303 a04 Compacted 1@1 + 5@2 files => 11030054 bytes
+2026/09/02-09:25:12.320 a04 compacted to: files[ 1 0 6 0 0 0 0 ]
+2026/09/02-09:25:12.320 a04 Delete type=2 #38
+2026/09/02-09:25:12.321 a04 Delete type=2 #39
+2026/09/02-09:25:12.321 a04 Delete type=2 #40
+2026/09/02-09:25:12.321 a04 Delete type=2 #42
+2026/09/02-09:25:12.321 a04 Delete type=2 #43
+2026/09/02-09:25:12.321 a04 Delete type=2 #44

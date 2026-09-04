@@ -1,0 +1,58 @@
+{
+    "border": { "thickness": 0, "rounding": 0, "smoothing": 0 },
+    "appearance": {
+        "transparency": {
+            "enabled": false
+        }
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "showOnHover": false
+        },
+        "popouts": {
+            "activeWindow": true
+        }
+    },
+    "dashboard": {
+        "enabled": true,
+        "showOnHover": true
+    },
+    "launcher": {
+        "enableDangerousActions": true,
+        "maxShown": 9,
+        "showOnHover": false
+    },
+    "utilities": {
+        "quickToggles": [
+            {
+                "enabled": true,
+                "id": "wifi"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "mic"
+            },
+            {
+                "enabled": true,
+                "id": "settings"
+            },
+            {
+                "enabled": true,
+                "id": "gameMode"
+            },
+            {
+                "enabled": true,
+                "id": "dnd"
+            },
+            {
+                "enabled": false,
+                "id": "vpn"
+            }
+        ]
+    }
+}

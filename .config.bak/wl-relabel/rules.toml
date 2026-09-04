@@ -1,0 +1,103 @@
+# wl-relabel rules — copy to $XDG_CONFIG_HOME/wl-relabel/rules.toml
+#
+# Rules are checked top to bottom and the first match wins. A window matching nothing is
+# passed through unchanged.
+#
+# Run `wl-relabel --log -- <app>` to see what an app sends. The log prints values in the
+# same form you write them here.
+#
+# Options:
+#
+#   app_id = ["...", ...]   required, which apps the rule applies to
+#
+#   when.decorations      "unspecified" | "none" | "client_side" | "server_side"
+#   when.min_width_below  strict <, against set_min_size
+#   when.min_height_below
+#   when.max_width_below  strict <, against set_max_size
+#   when.max_height_below
+#   when.has_parent       true | false
+#   when.title_contains   substring, case-sensitive
+#
+#   then.app_id           at least one of these two is required
+#   then.title            both accept {app_id} and {title}, {{ }} for a literal brace
+#
+# Every condition listed has to match. The size conditions and title_contains fail if the
+# app never sent the request they read: a window with no set_min_size fails
+# min_width_below rather than passing it by default. decorations and has_parent are
+# matched exactly instead, so "unspecified" and false are ordinary values to match on.
+
+# Undocked DevTools looks exactly like a popup, so it has to be claimed first to keep it
+# out of the popup rule below. Delete this if you'd rather it just floated.
+[[rule]]
+app_id = ["chromium"]
+when.decorations = "server_side"
+when.title_contains = "DevTools"
+then.app_id = "chromium-devtools"
+
+[[rule]]
+app_id = ["steam"]
+then.app_id = "{app_id}-popup"
+#when.decorations = "server_side"
+#when.title_contains = "DevTools"
+#then.app_id = "chromium-devtools"
+# Chromium's task manager arrives with an empty app_id, which is chromium's own
+# behaviour — an app_id="chromium" rule could never match it. Matching the empty app_id
+# also avoids a browser window whose tab happens to be titled "Task Manager".
+[[rule]]
+app_id = [""]
+when.title_contains = "Task Manager"
+then.app_id = "chromium-taskmanager"
+
+# Chromium's Picture-in-Picture, also with an empty app_id. Its title is fixed, so this
+# matches the whole thing. Firefox needs no equivalent rule: its PiP window keeps
+# app_id="firefox", so an ordinary for_window rule reaches it.
+[[rule]]
+app_id = [""]
+when.title_contains = "Picture in picture"
+then.app_id = "chromium-pip"
+
+# Browser popups: OAuth, SSO, payment windows.
+#
+# A popup asks the compositor to draw its title bar, because it has no toolbar of its
+# own. Both browsers do this, using different protocols, and wl-relabel treats them the
+# same.
+#
+# Both conditions are required. With "use system title bar" turned on, main windows ask
+# for server-side decorations too, so decorations alone would float the whole browser.
+# min_size separates them, since main windows can't go below 500px wide:
+#
+#               main window   popup
+#   chromium     (500,  87)   (179, 36)
+#   firefox      (500, 120)   ( 95, 95)
+#
+# 400 sits between the two columns. Re-check it after a browser update.
+[[rule]]
+app_id = ["chromium", "firefox"]
+when.decorations = "server_side"
+when.min_width_below = 400
+then.app_id = "{app_id}-popup"
+
+# Adding another app
+#
+# Scoping each rule to app_id is a safety measure. "Asks for server-side decorations"
+# only means "popup" for apps whose main windows ask for client-side. Most non-GTK apps
+# ask for server-side on everything, so an unscoped rule would relabel all their windows.
+#
+# Before adding an app above, run --log and check that its main window is client-side and
+# that its min_size is well clear of the threshold.
+#
+# Electron apps are not supported. The properties observable before a window appears do
+# not separate their windows reliably.
+#
+# Chromium's --app= windows need no rule; they already get their own app_id.
+
+# Then in your compositor config:
+#
+#   for_window [app_id="chromium-popup"] floating enable
+#   for_window [app_id="firefox-popup"]  floating enable
+#   for_window [app_id="chromium-pip"]   floating enable, sticky enable
+#
+# Anything wl-relabel can't express — "workspace 3, centred, 500x600" — goes there.
+#
+# If you already have rules matching app_id="chromium", they no longer see popups,
+# DevTools or the task manager. Point them at the new names.

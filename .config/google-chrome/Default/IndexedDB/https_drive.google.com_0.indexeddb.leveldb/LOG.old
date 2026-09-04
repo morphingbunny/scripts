@@ -1,0 +1,54 @@
+2026/09/04-08:42:51.822 18ffc Reusing MANIFEST /home/thomas/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/04-08:42:51.824 18ffc Recovering log #68
+2026/09/04-08:42:51.877 18ffc Reusing old log /home/thomas/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000068.log 
+2026/09/04-08:43:00.948 18ffd Compacting 2@0 + 0@1 files
+2026/09/04-08:43:01.027 18ffd Generated table #75@0: 9664 keys, 2137122 bytes
+2026/09/04-08:43:01.046 18ffd Level-0 table #78: started
+2026/09/04-08:43:01.087 18ffd Level-0 table #78: 1623218 bytes OK
+2026/09/04-08:43:01.095 18ffd Delete type=0 #68
+2026/09/04-08:43:01.116 18ffd Generated table #76@0: 3942 keys, 1369337 bytes
+2026/09/04-08:43:01.116 18ffd Compacted 2@0 + 0@1 files => 3506459 bytes
+2026/09/04-08:43:01.122 18ffd compacted to: files[ 1 2 7 0 0 0 0 ]
+2026/09/04-08:43:01.123 18ffd Delete type=2 #64
+2026/09/04-08:43:01.124 18ffd Delete type=2 #69
+2026/09/04-08:43:01.126 18fff Compacting 1@0 + 2@1 files
+2026/09/04-08:43:01.207 18fff Generated table #79@0: 16934 keys, 2142891 bytes
+2026/09/04-08:43:01.244 18fff Generated table #80@0: 1855 keys, 2115689 bytes
+2026/09/04-08:43:01.258 18fff Generated table #81@0: 4254 keys, 572477 bytes
+2026/09/04-08:43:01.258 18fff Compacted 1@0 + 2@1 files => 4831057 bytes
+2026/09/04-08:43:01.263 18fff compacted to: files[ 0 3 7 0 0 0 0 ]
+2026/09/04-08:43:01.263 18fff Delete type=2 #75
+2026/09/04-08:43:01.263 18fff Delete type=2 #76
+2026/09/04-08:43:01.263 18fff Delete type=2 #78
+2026/09/04-08:43:01.269 18ffd Expanding@1 1+7 (572477+13679942 bytes) to 3+7 (4831057+13679942 bytes)
+2026/09/04-08:43:01.269 18ffd Compacting 3@1 + 7@2 files
+2026/09/04-08:43:01.309 18ffd Generated table #82@1: 2578 keys, 2129341 bytes
+2026/09/04-08:43:01.309 18ffd Level-0 table #84: started
+2026/09/04-08:43:01.334 18ffd Level-0 table #84: 1568555 bytes OK
+2026/09/04-08:43:01.340 18ffd Delete type=0 #77
+2026/09/04-08:43:01.399 18ffd Generated table #85@1: 1959 keys, 2128654 bytes
+2026/09/04-08:43:01.439 18ffd Generated table #86@1: 2111 keys, 2120712 bytes
+2026/09/04-08:43:01.490 18ffd Generated table #87@1: 1540 keys, 2120557 bytes
+2026/09/04-08:43:01.490 18ffd Level-0 table #89: started
+2026/09/04-08:43:01.519 18ffd Level-0 table #89: 1745149 bytes OK
+2026/09/04-08:43:01.526 18ffd Delete type=0 #83
+2026/09/04-08:43:01.567 18ffd Generated table #90@1: 2134 keys, 2136666 bytes
+2026/09/04-08:43:01.597 18ffd Level-0 table #93: started
+2026/09/04-08:43:01.633 18ffd Level-0 table #93: 1873281 bytes OK
+2026/09/04-08:43:01.642 18ffd Delete type=0 #88
+2026/09/04-08:43:01.654 18ffd Generated table #91@1: 1812 keys, 2120873 bytes
+2026/09/04-08:43:01.695 18ffd Generated table #94@1: 1835 keys, 2119270 bytes
+2026/09/04-08:43:01.732 18ffd Generated table #95@1: 1875 keys, 2150639 bytes
+2026/09/04-08:43:01.758 18ffd Generated table #96@1: 15762 keys, 1250948 bytes
+2026/09/04-08:43:01.758 18ffd Compacted 3@1 + 7@2 files => 18277660 bytes
+2026/09/04-08:43:01.763 18ffd compacted to: files[ 3 0 9 0 0 0 0 ]
+2026/09/04-08:43:01.764 18ffd Delete type=2 #65
+2026/09/04-08:43:01.764 18ffd Delete type=2 #66
+2026/09/04-08:43:01.764 18ffd Delete type=2 #67
+2026/09/04-08:43:01.764 18ffd Delete type=2 #70
+2026/09/04-08:43:01.764 18ffd Delete type=2 #71
+2026/09/04-08:43:01.764 18ffd Delete type=2 #72
+2026/09/04-08:43:01.764 18ffd Delete type=2 #73
+2026/09/04-08:43:01.764 18ffd Delete type=2 #79
+2026/09/04-08:43:01.764 18ffd Delete type=2 #80
+2026/09/04-08:43:01.764 18ffd Delete type=2 #81

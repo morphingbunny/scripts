@@ -1,0 +1,14 @@
+{
+   "browser_action_hover": {
+      "description": "",
+      "message": "Buscar con Ecosia"
+   },
+   "store_shortdesc": {
+      "description": "",
+      "message": "Esta extensión establece Ecosia como buscador predeterminado y personaliza la página de nueva pestaña para que puedas plantar árboles con cada búsqueda."
+   },
+   "store_title": {
+      "description": "",
+      "message": "Ecosia, el buscador que planta árboles"
+   }
+}

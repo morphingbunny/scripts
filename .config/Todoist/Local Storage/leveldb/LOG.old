@@ -1,0 +1,6 @@
+2026/09/04-08:57:19.225 1b246 Reusing MANIFEST /home/thomas/.config/Todoist/Local Storage/leveldb/MANIFEST-000001
+2026/09/04-08:57:19.232 1b246 Recovering log #3
+2026/09/04-08:57:19.238 1b246 Reusing old log /home/thomas/.config/Todoist/Local Storage/leveldb/000003.log 
+2026/09/04-09:32:36.581 1b25e Level-0 table #5: started
+2026/09/04-09:32:36.585 1b25e Level-0 table #5: 21858 bytes OK
+2026/09/04-09:32:36.591 1b25e Delete type=0 #3

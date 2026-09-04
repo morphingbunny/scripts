@@ -1,0 +1,63 @@
+2026/09/04-08:52:42.333 1a920 Reusing MANIFEST /home/thomas/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/09/04-08:52:42.335 1a920 Recovering log #276
+2026/09/04-08:52:42.336 1a920 Reusing old log /home/thomas/.config/google-chrome/Default/Sync Data/LevelDB/000276.log 
+2026/09/04-09:01:40.659 1a91f Level-0 table #280: started
+2026/09/04-09:01:40.666 1a91f Level-0 table #280: 246260 bytes OK
+2026/09/04-09:01:40.672 1a91f Delete type=0 #276
+2026/09/04-09:07:33.408 1a920 Level-0 table #282: started
+2026/09/04-09:07:33.414 1a920 Level-0 table #282: 76832 bytes OK
+2026/09/04-09:07:33.422 1a920 Delete type=0 #279
+2026/09/04-09:07:33.422 1a920 Compacting 4@0 + 1@1 files
+2026/09/04-09:07:33.452 1a920 Generated table #283@0: 9319 keys, 1679581 bytes
+2026/09/04-09:07:33.452 1a920 Compacted 4@0 + 1@1 files => 1679581 bytes
+2026/09/04-09:07:33.459 1a920 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/04-09:07:33.459 1a920 Delete type=2 #271
+2026/09/04-09:07:33.459 1a920 Delete type=2 #274
+2026/09/04-09:07:33.459 1a920 Delete type=2 #277
+2026/09/04-09:07:33.459 1a920 Delete type=2 #280
+2026/09/04-09:07:33.459 1a920 Delete type=2 #282
+2026/09/04-09:15:36.773 1a920 Level-0 table #285: started
+2026/09/04-09:15:36.778 1a920 Level-0 table #285: 80325 bytes OK
+2026/09/04-09:15:36.784 1a920 Delete type=0 #281
+2026/09/04-09:24:28.804 1a920 Level-0 table #287: started
+2026/09/04-09:24:28.810 1a920 Level-0 table #287: 74376 bytes OK
+2026/09/04-09:24:28.817 1a920 Delete type=0 #284
+2026/09/04-09:29:46.805 1a91f Level-0 table #289: started
+2026/09/04-09:29:46.810 1a91f Level-0 table #289: 73807 bytes OK
+2026/09/04-09:29:46.816 1a91f Delete type=0 #286
+2026/09/04-09:38:03.825 1a920 Level-0 table #291: started
+2026/09/04-09:38:03.829 1a920 Level-0 table #291: 71431 bytes OK
+2026/09/04-09:38:03.834 1a920 Delete type=0 #288
+2026/09/04-09:38:03.835 1a920 Compacting 4@0 + 1@1 files
+2026/09/04-09:38:03.858 1a920 Generated table #292@0: 9325 keys, 1685848 bytes
+2026/09/04-09:38:03.858 1a920 Compacted 4@0 + 1@1 files => 1685848 bytes
+2026/09/04-09:38:03.864 1a920 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/04-09:38:03.864 1a920 Delete type=2 #283
+2026/09/04-09:38:03.864 1a920 Delete type=2 #285
+2026/09/04-09:38:03.864 1a920 Delete type=2 #287
+2026/09/04-09:38:03.864 1a920 Delete type=2 #289
+2026/09/04-09:38:03.864 1a920 Delete type=2 #291
+2026/09/04-09:44:13.090 1a920 Level-0 table #294: started
+2026/09/04-09:44:13.095 1a920 Level-0 table #294: 67949 bytes OK
+2026/09/04-09:44:13.101 1a920 Delete type=0 #290
+2026/09/04-09:50:28.628 1a920 Level-0 table #296: started
+2026/09/04-09:50:28.633 1a920 Level-0 table #296: 69241 bytes OK
+2026/09/04-09:50:28.640 1a920 Delete type=0 #293
+2026/09/04-11:21:27.698 1a922 Level-0 table #298: started
+2026/09/04-11:21:27.704 1a922 Level-0 table #298: 76219 bytes OK
+2026/09/04-11:21:27.710 1a922 Delete type=0 #295
+2026/09/04-11:47:59.511 1a922 Level-0 table #300: started
+2026/09/04-11:47:59.517 1a922 Level-0 table #300: 70802 bytes OK
+2026/09/04-11:47:59.524 1a922 Delete type=0 #297
+2026/09/04-11:47:59.524 1a922 Compacting 4@0 + 1@1 files
+2026/09/04-11:47:59.553 1a922 Generated table #301@0: 9329 keys, 1683615 bytes
+2026/09/04-11:47:59.553 1a922 Compacted 4@0 + 1@1 files => 1683615 bytes
+2026/09/04-11:47:59.559 1a922 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/04-11:47:59.560 1a922 Delete type=2 #292
+2026/09/04-11:47:59.560 1a922 Delete type=2 #294
+2026/09/04-11:47:59.560 1a922 Delete type=2 #296
+2026/09/04-11:47:59.560 1a922 Delete type=2 #298
+2026/09/04-11:47:59.560 1a922 Delete type=2 #300
+2026/09/04-12:04:26.268 1a920 Level-0 table #303: started
+2026/09/04-12:04:26.273 1a920 Level-0 table #303: 81663 bytes OK
+2026/09/04-12:04:26.279 1a920 Delete type=0 #299

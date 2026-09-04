@@ -1,0 +1,13 @@
+2026-09-04 11:24:46.038 [info] Extension host with pid 132714 started
+2026-09-04 11:24:46.038 [info] Skipping acquiring lock for /home/thomas/.config/Code - OSS/User/workspaceStorage/fd0772844a19dbb3f32ce30990ac7e19.
+2026-09-04 11:24:46.246 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-04 11:24:46.301 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-04 11:24:46.433 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-09-04 11:24:46.450 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-04 11:24:46.495 [info] Eager extensions activated
+2026-09-04 11:24:46.533 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-04 11:24:46.542 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-04 11:25:17.830 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-04 11:25:17.849 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-04 11:29:08.463 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-09-04 11:29:08.649 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

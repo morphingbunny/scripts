@@ -1,0 +1,50 @@
+{
+   "AppDesc": {
+      "message": "Block all Youtube Ads! Augment your YouTube experience with Fullscreen Theater Mode, Video Screenshot, Volume Booster and many more"
+   },
+   "AppName": {
+      "message": "Adblocker for Youtube™"
+   },
+   "DisableToolbar": {
+      "message": "השבת את סרגל הכלים"
+   },
+   "DisableToolbarReload": {
+      "message": "טען מחדש את הדף כדי להחיל את השינויים"
+   },
+   "FirstAdFix": {
+      "message": "לפעמים, מודעת התצוגה המקדימה הראשונה של הווידאו אינה חסומה כראוי ומסך שחור מוצג על הסרטון בזמן שהמודעה מושמעת. הפתרון הזמני לכך הוא לטעון מחדש את כל העמוד (F5) והסרטון יופעל מיד. המודעה תידלג לאחר רענון הדף."
+   },
+   "cinema_mode": {
+      "message": "מצב תיאטרון"
+   },
+   "create_screenshot": {
+      "message": "צור צילום מסך"
+   },
+   "float_video": {
+      "message": "וידאו לצוף"
+   },
+   "keyboard_shortcuts": {
+      "message": "קיצורי דרך במקלדת"
+   },
+   "loop_video": {
+      "message": "סרטון לולאה"
+   },
+   "msg_popup_1": {
+      "message": "האם אתה צופה בסרטונים לעתים קרובות? התוסף שלנו יעזור לכם לקבל חוויה מהנה יותר עם סרטוני יוטיוב"
+   },
+   "msg_popup_2": {
+      "message": "תוסף תוכנה זה מאפשר לך:"
+   },
+   "msg_popup_3": {
+      "message": "אתה יכול להסיר את המודעות, להגדיל את עוצמת הקול של הסרטון ל 600%."
+   },
+   "msg_popup_4": {
+      "message": "הפעל את הווידיאו במצב צף והזז בחופשיות את נגן המיני לכל מקום בשולחן העבודה."
+   },
+   "msg_popup_5": {
+      "message": "הפעל את הווידיאו במצב צף והזז בחופשיות את נגן המיני לכל מקום בשולחן העבודה."
+   },
+   "remove_ads": {
+      "message": "הסר פרסומות"
+   }
+}

@@ -1,0 +1,331 @@
+{
+   "app_password": {
+      "description": "Label for the app password input",
+      "message": "App Password"
+   },
+   "block_all": {
+      "description": "Text for the block all button",
+      "message": "Block All"
+   },
+   "blocked_user": {
+      "description": "Text for the blocked user",
+      "message": "Blocked Users"
+   },
+   "button_block_on_bluesky": {
+      "description": "Text for the button block on bluesky",
+      "message": "Block on Bluesky"
+   },
+   "button_blocking_on_bluesky": {
+      "description": "Text for the button blocking on bluesky",
+      "message": "Blocking on Bluesky"
+   },
+   "button_follow_on_bluesky": {
+      "description": "Text for the button follow on bluesky",
+      "message": "Follow on Bluesky"
+   },
+   "button_following_on_bluesky": {
+      "description": "Text for the button following on bluesky",
+      "message": "Following on Bluesky"
+   },
+   "button_unblock_on_bluesky": {
+      "description": "Text for the button unblock on bluesky",
+      "message": "Unblock on Bluesky"
+   },
+   "button_unfollow_on_bluesky": {
+      "description": "Text for the button unfollow on bluesky",
+      "message": "Unfollow on Bluesky"
+   },
+   "confirmation_cancel": {
+      "description": "Text for the confirmation cancel button",
+      "message": "Cancel"
+   },
+   "confirmation_ok": {
+      "description": "Text for the confirmation ok button",
+      "message": "OK"
+   },
+   "contact_title": {
+      "description": "Text for the contact title",
+      "message": "If you have any issues or questions, please feel free to contact us at \u003Ca class='link' href='https://bsky.app/profile/sky-follower-bridge.dev' target='_blank' rel='noopener noreferrer'>@sky-follower-bridge.dev\u003C/a>"
+   },
+   "delete_user": {
+      "description": "Tooltip text for the delete user button",
+      "message": "Delete user"
+   },
+   "detected": {
+      "description": "Text for the detected",
+      "message": "Detected"
+   },
+   "detected_users": {
+      "description": "Text for the detected users message",
+      "message": "Found \u003Cspan class='text-5xl'>$users$\u003C/span> bsky users",
+      "placeholders": {
+         "users": {
+            "content": "$1"
+         }
+      }
+   },
+   "donate_message": {
+      "description": "Text for the donate message",
+      "message": "This tool is developed by an individual. Your [support](https://ko-fi.com/kawamataryo) helps maintain and improve it. Thank you!"
+   },
+   "error_enter_identifier": {
+      "description": "Text for the error message when the handle is not entered",
+      "message": "Error: Please enter your handle."
+   },
+   "error_enter_password": {
+      "description": "Text for the error message when the password is not entered",
+      "message": "Error: Please enter your app password."
+   },
+   "error_invalid_identifier_or_password": {
+      "description": "Text for the error message when credentials are invalid",
+      "message": "Error: Invalid handle or password. Please check your credentials."
+   },
+   "error_invalid_page": {
+      "description": "Text for the error message when the page is invalid",
+      "message": "Error:  Invalid active page. Use the extension with a valid web page active."
+   },
+   "error_invalid_page_in_threads": {
+      "description": "Text for the error message when the page is invalid in threads",
+      "message": "Error: Invalid page. please open the followers or following view."
+   },
+   "error_report_to_developer": {
+      "description": "Text for the error report to developer",
+      "message": "If you cannot resolve the error, please contact \u003Ca class='link' href='https://bsky.app/profile/sky-follower-bridge.dev' target='_blank' rel='noopener noreferrer'>@sky-follower-bridge.dev\u003C/a>."
+   },
+   "error_something_went_wrong": {
+      "description": "Text for the error message when something went wrong",
+      "message": "Error: Something went wrong. Please reload the web page and try again."
+   },
+   "error_two_factor_authentication_required": {
+      "description": "Text for the error message when 2FA is required",
+      "message": "Error: Two-factor authentication is required. Please enter the confirmation code sent to your email."
+   },
+   "extension_description": {
+      "description": "Text for the extension description",
+      "message": "Easily transfer your following users and list members from X to Bluesky."
+   },
+   "extension_name": {
+      "description": "Text for the extension name",
+      "message": "Sky Follower Bridge"
+   },
+   "filter_type_avatar_not_similar": {
+      "description": "Label for the filter type when avatar is not similar",
+      "message": "Avatar not similar"
+   },
+   "findSimilarBlueskyUsers": {
+      "description": "Text for the find similar Bluesky users button",
+      "message": "🦋 Find Similar Bluesky Users"
+   },
+   "find_bluesky_users": {
+      "description": "Text for the find bluesky users button",
+      "message": "Find Bluesky Users"
+   },
+   "finding_bluesky_users": {
+      "description": "Text for the finding bluesky users message",
+      "message": "Finding Bluesky Users"
+   },
+   "follow_all": {
+      "description": "Text for the follow all button",
+      "message": "Follow All"
+   },
+   "follow_all_confirmation_message": {
+      "description": "Text for the follow all confirmation message",
+      "message": "User detection is not perfect and may include false positives."
+   },
+   "follow_all_confirmation_title": {
+      "description": "Text for the follow all confirmation title",
+      "message": "Proceed with Execution?"
+   },
+   "followed_users": {
+      "description": "Text for the followed users",
+      "message": "Followed Users"
+   },
+   "handle": {
+      "description": "Text for the handle input on OAuth tab",
+      "message": "Handle"
+   },
+   "handle_or_email": {
+      "description": "Text for the handle or email input on App Password tab",
+      "message": "Handle or Email"
+   },
+   "hint_title": {
+      "description": "Title text for the hint section explaining which pages to open",
+      "message": "To search for Bluesky users, please open one of the following pages and click the search button:"
+   },
+   "import_list": {
+      "description": "Text for the import list button",
+      "message": "Import List"
+   },
+   "import_list_confirmation_message": {
+      "description": "Text for the import list confirmation message",
+      "message": "Importing a list will create a new list and add all detected users to it. This feature is experimental and may not work as expected."
+   },
+   "import_list_confirmation_title": {
+      "description": "Text for the import list confirmation title",
+      "message": "Proceed with Execution?"
+   },
+   "include_non_avatar_similar_users": {
+      "description": "Label for the checkbox to include users whose avatars are not similar",
+      "message": "Include non-similar avatars"
+   },
+   "included_handle_in_description": {
+      "description": "Text for the included handle in description",
+      "message": "Included Handle in Description"
+   },
+   "learn_more": {
+      "description": "Text for the learn more link",
+      "message": "For more information, please see here."
+   },
+   "loading": {
+      "description": "Text for the loading message",
+      "message": "Loading..."
+   },
+   "logging_in": {
+      "message": "Logging in..."
+   },
+   "login": {
+      "message": "Login"
+   },
+   "logout": {
+      "message": "Logout"
+   },
+   "noUsersFound": {
+      "description": "Text for when no users are found",
+      "message": "No users found"
+   },
+   "oauth_sign_in_description": {
+      "description": "Text for the OAuth sign-in description",
+      "message": "Sign in securely with your Bluesky account."
+   },
+   "re_search_modal_title": {
+      "description": "Text for the re search modal title",
+      "message": "Search Results"
+   },
+   "resume_scanning": {
+      "description": "Text for the resume scanning button",
+      "message": "Resume Scanning"
+   },
+   "same_display_name": {
+      "description": "Text for the same display name",
+      "message": "Same Display Name"
+   },
+   "same_handle_name": {
+      "description": "Text for the same handle name",
+      "message": "Same Handle Name"
+   },
+   "scanning_users": {
+      "description": "Text for the scanning users message",
+      "message": "Scanning $scannedUserCount$ $service$ users to find bsky users...",
+      "placeholders": {
+         "scannedUserCount": {
+            "content": "$2",
+            "example": "100"
+         },
+         "service": {
+            "content": "$1",
+            "example": "X"
+         }
+      }
+   },
+   "search_again": {
+      "description": "Tooltip text for the search again button",
+      "message": "Search again"
+   },
+   "service_scanning_warning": {
+      "description": "Text for the service scanning warning message",
+      "message": "$service$ scanning is an experimental feature. Results may contain false positives or be unstable. Please verify before following.",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "service_url": {
+      "description": "Text for the service URL input on App Password tab",
+      "message": "Service URL"
+   },
+   "share_on_bluesky": {
+      "description": "Text for the share on Bluesky button",
+      "message": "Share on Bluesky"
+   },
+   "share_text": {
+      "description": "Text for sharing the app",
+      "message": "I've discovered $number$ Bluesky users from my social network using the Sky Follower Bridge.✨\n\nCheck it out: https://share.sky-follower-bridge.dev?q=$number$\n\n#skyfollowerbridge",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "sidebar_detected_users": {
+      "description": "Text for the sidebar detected users",
+      "message": "Detected Users"
+   },
+   "sign_in_with_bluesky": {
+      "description": "Text for the sign in with Bluesky button",
+      "message": "Sign in with Bluesky"
+   },
+   "source": {
+      "description": "Text for the source",
+      "message": "Source"
+   },
+   "stop_scanning_and_view_results": {
+      "description": "Text for the stop scanning and view results button",
+      "message": "Stop Scanning and View Results"
+   },
+   "text_avatar_is_similar": {
+      "description": "Text shown when the avatar is similar to the source user",
+      "message": "✅ Similar avatar"
+   },
+   "toast_block_all_success": {
+      "description": "Text for the toast block all success message",
+      "message": "Blocked $count$ users🎉",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "toast_follow_all_success": {
+      "description": "Text for the toast follow all success message",
+      "message": "Followed $count$ users🎉",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "toast_import_list_error": {
+      "description": "Text for the toast import list error message",
+      "message": "Failed to import list: $error$",
+      "placeholders": {
+         "error": {
+            "content": "$1"
+         }
+      }
+   },
+   "toast_import_list_success": {
+      "description": "Text for the toast import list success message",
+      "message": "List imported successfully🎉"
+   },
+   "toast_import_list_success_view_list": {
+      "description": "Text for the toast import list success view list button",
+      "message": "View Imported List"
+   },
+   "toast_pending": {
+      "description": "Text for the toast pending message",
+      "message": "Processing..."
+   },
+   "two_factor_auth_code": {
+      "description": "Label for the two factor authentication code input",
+      "message": "2FA Confirmation Code"
+   },
+   "view_detected_users": {
+      "description": "Text for the view detected users button",
+      "message": "View Detected Users"
+   },
+   "warning_user_detection": {
+      "description": "Text for the warning user detection",
+      "message": "User detection is not perfect and may include false positives."
+   }
+}

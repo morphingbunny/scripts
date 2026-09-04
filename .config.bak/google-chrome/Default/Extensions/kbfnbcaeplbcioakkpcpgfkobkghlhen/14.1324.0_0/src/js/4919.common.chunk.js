@@ -1,0 +1,1 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[4919],{24919:(e,t,n)=>{n.r(t),n.d(t,{activate:()=>r});const r=()=>{return e=void 0,t=null,n=function*(){return{skills:[]}},new Promise((r,a)=>{var l=e=>{try{s(n.next(e))}catch(e){a(e)}},c=e=>{try{s(n.throw(e))}catch(e){a(e)}},s=e=>e.done?r(e.value):Promise.resolve(e.value).then(l,c);s((n=n.apply(e,t)).next())});var e,t,n}}}]);

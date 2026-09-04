@@ -1,0 +1,19 @@
+[General]
+AutoExpandFolders=true
+EditableUrl=true
+FilterBar=true
+OpenExternallyCalledFolderInNewTab=false
+ShowCopyMoveMenu=true
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+ShowToolTips=true
+ShowZoomSlider=false
+Version=202
+ViewPropsTimestamp=2026,8,11,21,45,52.999
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled

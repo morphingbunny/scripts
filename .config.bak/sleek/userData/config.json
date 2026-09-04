@@ -1,0 +1,117 @@
+{
+	"sorting": [
+		{
+			"id": "1",
+			"value": "priority",
+			"invert": false
+		},
+		{
+			"id": "2",
+			"value": "projects",
+			"invert": false
+		},
+		{
+			"id": "3",
+			"value": "contexts",
+			"invert": false
+		},
+		{
+			"id": "4",
+			"value": "due",
+			"invert": false
+		},
+		{
+			"id": "5",
+			"value": "t",
+			"invert": false
+		},
+		{
+			"id": "6",
+			"value": "completed",
+			"invert": false
+		},
+		{
+			"id": "7",
+			"value": "created",
+			"invert": false
+		},
+		{
+			"id": "8",
+			"value": "rec",
+			"invert": false
+		},
+		{
+			"id": "9",
+			"value": "pm",
+			"invert": false
+		}
+	],
+	"accordionOpenState": [
+		true,
+		true,
+		true,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false
+	],
+	"files": [
+		{
+			"active": true,
+			"todoFileName": "todo.txt",
+			"todoFilePath": "/home/thomas/Documents/todo.txt",
+			"todoFileBookmark": null,
+			"doneFilePath": null,
+			"doneFileBookmark": null
+		}
+	],
+	"appendCreationDate": false,
+	"showCompleted": true,
+	"showHidden": false,
+	"windowMaximized": false,
+	"fileSorting": false,
+	"convertRelativeToAbsoluteDates": true,
+	"thresholdDateInTheFuture": true,
+	"colorTheme": "system",
+	"shouldUseDarkColors": true,
+	"notificationsAllowed": true,
+	"notificationThreshold": 2,
+	"showFileTabs": true,
+	"isNavigationOpen": true,
+	"tray": false,
+	"zoom": 100,
+	"matomo": true,
+	"__internal__": {
+		"migrations": {
+			"version": "2.0.27"
+		}
+	},
+	"anonymousUserId": "1ed6d2fa-6852-4730-891e-30b8816ef821",
+	"dueDateInTheFuture": true,
+	"bulkTodoCreation": false,
+	"disableAnimations": false,
+	"useHumanFriendlyDates": true,
+	"excludeLinesWithPrefix": null,
+	"channel": "AUR",
+	"weekStart": 1,
+	"chokidarOptions": {
+		"awaitWriteFinish": {
+			"stabilityThreshold": 100,
+			"pollInterval": 100
+		}
+	},
+	"menuBarVisibility": true,
+	"compact": false,
+	"sortCompletedLast": false,
+	"invertTrayColor": false,
+	"startMinimized": false,
+	"enableSafeWrites": true,
+	"language": "en",
+	"windowDimensions": {
+		"width": 613,
+		"height": 658
+	},
+	"drawerWidth": 500
+}

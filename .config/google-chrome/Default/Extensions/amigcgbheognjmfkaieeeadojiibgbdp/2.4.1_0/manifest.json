@@ -1,0 +1,52 @@
+{
+   "action": {
+      "default_icon": "img/tmtchrome_browserbutton.png",
+      "default_popup": "core/popup.html",
+      "default_title": "TooManyTabs for Chrome"
+   },
+   "background": {
+      "service_worker": "core/service_worker.js"
+   },
+   "commands": {
+      "open-tmt-window": {
+         "description": "Open TMT Window",
+         "suggested_key": {
+            "default": "Alt+Shift+T",
+            "mac": "Alt+Shift+T"
+         }
+      },
+      "send-active-tmt": {
+         "description": "Send Active Tab to TMT",
+         "suggested_key": {
+            "default": "Alt+Shift+P",
+            "mac": "Alt+Shift+P"
+         }
+      }
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' data: chrome://favicon"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "img/tmtchrome_logo128.png",
+      "16": "img/tmtchrome_logo16.png",
+      "32": "img/tmtchrome_logo32.png",
+      "48": "img/tmtchrome_logo48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWX/cfO3ls3pe/TJbtcRSyiH6w1Qu84sfzmaebphivBfMXpt363mjc0NmivLITvrWZ20/fPv6+vaZx8ozeUnL7a9dEghFq2skxiMCxGJYPnrjLTbJ1QbIG9+rZ+GYIjmBTugMUWDgSLIUtQLg0pDiPfd9sAJ9us0w8Ud+xKlTpqwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "99",
+   "name": "__MSG_name__",
+   "optional_host_permissions": [ "\u003Call_urls>" ],
+   "options_page": "core/options.html",
+   "permissions": [ "activeTab", "tabs", "contextMenus", "unlimitedStorage", "storage", "favicon" ],
+   "short_name": "TooManyTabs",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4.1",
+   "web_accessible_resources": [ {
+      "extension_ids": [ "*" ],
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "_favicon/*" ]
+   } ]
+}

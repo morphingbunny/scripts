@@ -1,0 +1,6 @@
+2026/07/14-17:24:24.097 503db Creating DB /home/thomas/.config/google-chrome/Default/IndexedDB/https_word.tips_0.indexeddb.leveldb since it was missing.
+2026/07/14-17:24:24.106 503db Reusing MANIFEST /home/thomas/.config/google-chrome/Default/IndexedDB/https_word.tips_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/14-17:24:24.257 503de Level-0 table #5: started
+2026/07/14-17:24:24.263 503de Level-0 table #5: 1258 bytes OK
+2026/07/14-17:24:24.271 503de Delete type=0 #3
+2026/07/14-17:24:24.272 503db Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

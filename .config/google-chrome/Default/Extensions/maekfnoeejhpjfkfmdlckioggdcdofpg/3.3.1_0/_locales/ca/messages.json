@@ -1,0 +1,50 @@
+{
+   "AppDesc": {
+      "message": "Block all Youtube Ads! Augment your YouTube experience with Fullscreen Theater Mode, Video Screenshot, Volume Booster and many more"
+   },
+   "AppName": {
+      "message": "Adblocker for Youtube™"
+   },
+   "DisableToolbar": {
+      "message": "Desactiva la barra d&#39;eines"
+   },
+   "DisableToolbarReload": {
+      "message": "Torneu a carregar la pàgina per aplicar els canvis"
+   },
+   "FirstAdFix": {
+      "message": "De vegades, el primer anunci de previsualització de vídeo no es bloqueja correctament i es mostra una pantalla negra al vídeo mentre es reprodueix l&#39;àudio de l&#39;anunci. La solució temporal per a això és tornar a carregar tota la pàgina (F5) i el vídeo es reproduirà immediatament. L&#39;anunci s&#39;ometrà un cop s&#39;actualitzi la pàgina."
+   },
+   "cinema_mode": {
+      "message": "Mode teatre"
+   },
+   "create_screenshot": {
+      "message": "Crea una captura de pantalla"
+   },
+   "float_video": {
+      "message": "Vídeo Float"
+   },
+   "keyboard_shortcuts": {
+      "message": "Dreceres de teclat"
+   },
+   "loop_video": {
+      "message": "Loop Video"
+   },
+   "msg_popup_1": {
+      "message": "Veus vídeos sovint? La nostra extensió us ajudarà a tenir una experiència més agradable amb vídeos de YouTube"
+   },
+   "msg_popup_2": {
+      "message": "Aquesta extensió de programari us permet:"
+   },
+   "msg_popup_3": {
+      "message": "Podeu eliminar els anuncis, augmentar el volum del vídeo al 600%."
+   },
+   "msg_popup_4": {
+      "message": "reproduïu el vídeo en mode flotant i moveu lliurement el mini reproductor a qualsevol lloc de l&#39;escriptori."
+   },
+   "msg_popup_5": {
+      "message": "reproduïu el vídeo en mode flotant i moveu lliurement el mini reproductor a qualsevol lloc de l&#39;escriptori."
+   },
+   "remove_ads": {
+      "message": "Elimina els anuncis publicitaris"
+   }
+}
